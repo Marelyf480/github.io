@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - AquaPure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>AquaPure</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca.html">Acerca</a></li>
+            <li><a href="objetivo.html">Objetivos</a></li>
+            <li><a href="publicidad.html">Publicidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Formulario de contacto</h2>
+        <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        &copy; 2025 AquaPure. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
